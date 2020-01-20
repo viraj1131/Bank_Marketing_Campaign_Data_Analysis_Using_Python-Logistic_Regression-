@@ -64,7 +64,7 @@
 * In Python to apply logistic regression on categorical variables get_dummies() function is available inside Pandas library which will create additional variable of each categorical variables and  fill it’s values with 0 and 1 dummies. For Example, in case of marital variable it will create marital_married,  marital_divorced and marital_single than fill each of this variables with 1 and 0.Likewise for each categorical variable.
 * In R also same like python there is one function dummy_cols function is available inside fastDummies library which does same thing will create additional variable of each categorical variables and  fill it’s values with 0 and 1 dummies. 
 
-### Interpreting Python :
+### Interpreting Python Model :
 
 * In case of python From Accuracy of our logistic regression model it says that out of all term deposit that were marketed in campaign 78% of them liked by customer and subscribed for it.  
 * From above results we can say that Bank may rely on this model if they apply same marketing campaign on targeted customer there are 78% of probability that bank can predict weather a customer will subscribe for term deposit or not.
