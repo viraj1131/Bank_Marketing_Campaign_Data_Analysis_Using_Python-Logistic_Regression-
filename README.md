@@ -1,7 +1,15 @@
 # Bank_Marketing_Campaign_Data_Analysis_Using_Python-Logistic_Regression-
 
 ## I have used Bank Campaign Marketing dataset for doing analysis of it and applied Logistic regression upon to classify new  customers if they will ready to opt for deposit or not based upon current campaign data.
-## I have included Final Cleaned excel file named(Modeling_Dataset) which i have used for applying Logistic Regression as well as python jupyter notebook.
+## I have included Final Cleaned excel file named(Modeling_Dataset.xlsx) which i have used for applying Logistic Regression as well as python jupyter notebook (Banking_Marketing_Data_Logistic_Regression.ipynb).
+
+### Python Libraries need to Install:
+
+* pandas
+* sklearn
+* numpy
+* matplotlib
+* xlrd
 
 ### Data Understating:
 
@@ -9,23 +17,23 @@
 * Dataset contains various details about customer information as well as campaign related information.
 * There are total 10,000 observations and 17 variables in dataset below is brief description about each variables:
 
-Age: Age of customer.
-Job: Contains customer job type such as categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown'
-Marital: Marital status of customer contains divorced, married, single , unknown
-Education: What is education of customer contains primary, secondary, tertiary and unknown
-Default: Customer has default has or not contains yes, no and unknown
-Housing: Customer has housing loan or not contains yes and no
-Loan: Customer has any other loan or not contains yes and no
-Balance: Customer bank balance
-Contact: During term deposit campaign how customer were contacted contains cellular, telephone and unknown
-Day: Contains last contacted day of month to customer all 1 to 30/31 day of month
-Month: Contains last contacted month of year to customer all months of year
-Duration: During Campaign for how many seconds of duration customer talked
-Campaign: During campaign how many times customer were contacted.
-Pdays: number of days that passed by after the client was last contacted from a previous campaign
-Previous: number of contacts performed before this campaign and for this client
-Poutcome: outcome of the previous marketing campaign contains failure, success, other and unknown
-Deposit: Contains yes and no if customer made customer deposit than yes otherwise no.
+#### Age: Age of customer.
+#### Job: Contains customer job type such as categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown'
+#### Marital: Marital status of customer contains divorced, married, single , unknown
+#### Education: What is education of customer contains primary, secondary, tertiary and unknown
+#### Default: Customer has default has or not contains yes, no and unknown
+#### Housing: Customer has housing loan or not contains yes and no
+#### Loan: Customer has any other loan or not contains yes and no
+#### Balance: Customer bank balance
+#### Contact: During term deposit campaign how customer were contacted contains cellular, telephone and unknown
+#### Day: Contains last contacted day of month to customer all 1 to 30/31 day of month
+#### Month: Contains last contacted month of year to customer all months of year
+#### Duration: During Campaign for how many seconds of duration customer talked
+#### Campaign: During campaign how many times customer were contacted.
+#### Pdays: number of days that passed by after the client was last contacted from a previous campaign
+#### Previous: number of contacts performed before this campaign and for this client
+#### Poutcome: outcome of the previous marketing campaign contains failure, success, other and unknown
+#### Deposit: Contains yes and no if customer made customer deposit than yes otherwise no.
 
 ### Data Cleaning: 
 
@@ -38,13 +46,13 @@ Deposit: Contains yes and no if customer made customer deposit than yes otherwis
 * Highlight of this banking marketing dataset is that after running campaign how many customer agreed to make term deposit and how many not.
 * Customer’s who is  ready to make and who is not ready to make term deposit:
 
--- what is age of those customer?
--- How much bank balance they have?
--- How many number of times they have been contacted during campaign?
--- What is time duration of call?
--- What is their marital status?
--- Which type of job they have?
--- What is their education? 
+ #### what is age of those customer?
+ #### How much bank balance they have?
+ #### How many number of times they have been contacted during campaign?
+ #### What is time duration of call?
+ #### What is their marital status?
+ #### Which type of job they have?
+ #### What is their education? 
 * By finding all this patterns in both type of customer who made term deposit and not made term deposit bank can make future decision about in next marketing campaign which type of customer need to target.
 * So, based upon all this we can conclude that for finding relationship between two variables our dependent variable is deposit which is yes if customer made and no if customer has not and any of  these independent variables like bank balance, marital status, number of time contacted , duration for they talked, type of job and what is their education level.
 
